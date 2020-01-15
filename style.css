@@ -1,0 +1,28 @@
+body {
+    background-attachment: fixed;
+    background-color: brown;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* selectores de etiqueta header - sectio - article - nav */
+
+/* Selecetor descendente el que llega hasta el hijo
+ejemplo
+body header div nav ol li a
+*/
+
+/* para dar estilios similares a distintos elementos se utiliza class */
+
+/* Para utilizar class se accede con .Nombre */
+/* Para utilizar id se accede con #Nombre */
+/* para encontrar fuentes existe google fonts */
+
+.link {
+    text-decoration: none;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3.h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+}
