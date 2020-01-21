@@ -34,4 +34,100 @@ h1 {
     letter-spacing: -.2px;
     text-transform: capitalize;
     text-decoration: solid;
+    color: white;
+    margin: 0;
+}
+h1 strong {
+    color: #026fff;
+}
+.project-details {
+    width: 500px;
+    margin: 10px 20px;
+}
+.image-projectContainer {
+    width: 400px;
+   
+}
+.hero {
+    height: 400px;
+    background-image: url('https://bbvaopen4u.com/sites/default/files/styles/teaser/public/img/new/recursosprogramadores.png?itok=XsQgjQTv');
+    background-size: 550px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+.header {
+    background-color: #1b2127 ;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 90px;
+}
+.header a {
+    color: white;
+}
+.menu{
+    height: inherit;
+}
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li{
+    height: inherit;
+    
+}
+.header a{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    
+}
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+
+
+.project {
+    /* border-top: 10px solid yellow;
+    border-right: 10px solid green;
+    border-left: 10px solid yellow;
+    border-bottom: 10px solid green; */
+    /* border-color: yellow;
+    border-width: 15px;
+    border-style: solid; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin: 10;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+}
+.portfolio {
+    background-color: #fafafa;
+}
+.project-description {
+    width: 200px;
+}
+
+.footer {
+    color:  white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    vertical-align: middle;
 }
